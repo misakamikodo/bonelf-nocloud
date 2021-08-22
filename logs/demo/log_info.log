@@ -1,0 +1,172 @@
+2021-08-22 14:23:51.480 [main] INFO  com.bonelf.demo.DemoApplication - Starting DemoApplication on CCYDESKTOP with PID 4288 (F:\chenyuan\bonelf\bonelf-nocloud\target\classes started by Chenyuan in F:\chenyuan\bonelf\bonelf-nocloud)
+2021-08-22 14:23:51.501 [main] INFO  com.bonelf.demo.DemoApplication - The following profiles are active: bonelf,third,dev
+2021-08-22 14:23:54.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-22 14:23:54.686 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-22 14:23:54.752 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2021-08-22 14:23:56.568 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.bonelf.frame.base.config.RedisAutoConfig' of type [com.bonelf.frame.base.config.RedisAutoConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.714 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.733 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.744 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7612116b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.746 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.770 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.832 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.843 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.866 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:56.881 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:23:57.762 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8499 (http)
+2021-08-22 14:23:57.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8499"]
+2021-08-22 14:23:57.788 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-22 14:23:57.789 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-22 14:23:57.964 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/bonelf] - Initializing Spring embedded WebApplicationContext
+2021-08-22 14:23:57.964 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6341 ms
+2021-08-22 14:23:58.360 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-08-22 14:23:58.516 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2021-08-22 14:23:58.516 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 1 个数据源
+2021-08-22 14:23:58.517 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+2021-08-22 14:23:58.517 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+2021-08-22 14:24:01.167 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2021-08-22 14:24:01.209 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2021-08-22 14:24:01.781 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-08-22 14:24:01.808 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-08-22 14:24:01.808 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-08-22 14:24:01.810 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-08-22 14:24:01.811 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-08-22 14:24:01.812 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-08-22 14:24:01.812 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-08-22 14:24:01.813 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@73bb782d
+2021-08-22 14:24:04.510 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-22 14:24:05.794 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+2021-08-22 14:24:05.795 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui/index.html'], []
+2021-08-22 14:24:05.796 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/oauth/token_key'], []
+2021-08-22 14:24:05.796 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login/**'], []
+2021-08-22 14:24:05.797 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2021-08-22 14:24:05.953 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c66b3d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1334a246, org.springframework.security.web.header.HeaderWriterFilter@763ff91, org.springframework.security.web.authentication.logout.LogoutFilter@2e6fa551, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@7d5b1446, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56b5de49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@141962b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@205c0b1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@206d4413, org.springframework.security.web.session.SessionManagementFilter@21d08148, org.springframework.security.web.access.ExceptionTranslationFilter@355c2b72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66161fee]
+2021-08-22 14:24:05.986 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@631f188a, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@285bee4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@607c7f58, org.springframework.security.web.header.HeaderWriterFilter@407bfc49, org.springframework.security.web.authentication.logout.LogoutFilter@5c1348c6, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@c9f1951, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bbb00a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@543d242e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d181ca3, org.springframework.security.web.session.SessionManagementFilter@2f84848e, org.springframework.security.web.access.ExceptionTranslationFilter@3413effc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@136cd71b]
+2021-08-22 14:24:06.018 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@200cdb37, org.springframework.security.web.context.SecurityContextPersistenceFilter@66049424, org.springframework.security.web.header.HeaderWriterFilter@221b9c2b, org.springframework.security.web.authentication.logout.LogoutFilter@7dcbcede, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@87f4794, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@146b3bc7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8eb1297, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@766f2d65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@523d6b45, org.springframework.security.web.session.SessionManagementFilter@42017162, org.springframework.security.web.access.ExceptionTranslationFilter@38dacb78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e5d41dc]
+2021-08-22 14:24:06.103 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2021-08-22 14:24:06.221 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2021-08-22 14:24:08.614 [container-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-08-22 14:24:08.620 [container-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-08-22 14:24:13.387 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2021-08-22 14:24:13.388 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2021-08-22 14:24:13.390 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2021-08-22 14:24:13.391 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-08-22 14:24:13.391 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-08-22 14:24:13.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8499"]
+2021-08-22 14:24:13.443 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8499 (http) with context path '/bonelf'
+2021-08-22 14:24:13.450 [main] INFO  com.bonelf.demo.DemoApplication - Started DemoApplication in 23.737 seconds (JVM running for 32.439)
+2021-08-22 14:24:13.792 [main] INFO  com.bonelf.demo.DemoApplication - 
+----------------------------------------------------------
+	Application is running! Access URLs:
+	Local: 		http://127.0.0.1:8499/bonelf
+	External: 	http://192.168.31.104:8499/bonelf
+	Websocket(stomp): 	http://192.168.31.104:8499/bonelf/wst
+----------------------------------------------------------
+2021-08-22 14:25:06.219 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-08-22 14:25:20.730 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2021-08-22 14:25:20.730 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2021-08-22 14:25:20.731 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2021-08-22 14:25:20.731 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-08-22 14:25:20.733 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2021-08-22 14:25:20.734 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2021-08-22 14:25:20.737 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-22 14:25:20.747 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2021-08-22 14:25:20.748 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-08-22 14:25:20.748 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-08-22 14:25:20.749 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-08-22 14:25:20.750 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2021-08-22 14:25:20.750 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2021-08-22 14:25:30.833 [main] INFO  com.bonelf.demo.DemoApplication - Starting DemoApplication on CCYDESKTOP with PID 6064 (F:\chenyuan\bonelf\bonelf-nocloud\target\classes started by Chenyuan in F:\chenyuan\bonelf\bonelf-nocloud)
+2021-08-22 14:25:30.839 [main] INFO  com.bonelf.demo.DemoApplication - The following profiles are active: bonelf,third,dev
+2021-08-22 14:25:33.306 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-22 14:25:33.311 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-22 14:25:33.348 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2021-08-22 14:25:34.877 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.bonelf.frame.base.config.RedisAutoConfig' of type [com.bonelf.frame.base.config.RedisAutoConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.045 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3ee6dc82' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.069 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.122 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.134 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.154 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.170 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-22 14:25:35.895 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8499 (http)
+2021-08-22 14:25:35.917 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8499"]
+2021-08-22 14:25:35.918 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-22 14:25:35.919 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-22 14:25:36.060 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/bonelf] - Initializing Spring embedded WebApplicationContext
+2021-08-22 14:25:36.061 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5106 ms
+2021-08-22 14:25:36.434 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-08-22 14:25:36.554 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2021-08-22 14:25:36.554 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 1 个数据源
+2021-08-22 14:25:36.555 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+2021-08-22 14:25:36.555 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+2021-08-22 14:25:39.009 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2021-08-22 14:25:39.044 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2021-08-22 14:25:39.561 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-08-22 14:25:39.582 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-08-22 14:25:39.583 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-08-22 14:25:39.585 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-08-22 14:25:39.586 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-08-22 14:25:39.587 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-08-22 14:25:39.587 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-08-22 14:25:39.587 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@140cfc5f
+2021-08-22 14:25:42.268 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-22 14:25:43.351 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/**', OPTIONS], []
+2021-08-22 14:25:43.352 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui/index.html'], []
+2021-08-22 14:25:43.352 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/oauth/token_key'], []
+2021-08-22 14:25:43.352 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login/**'], []
+2021-08-22 14:25:43.353 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2021-08-22 14:25:43.501 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c7a699b, org.springframework.security.web.context.SecurityContextPersistenceFilter@58fa8762, org.springframework.security.web.header.HeaderWriterFilter@3622c9f0, org.springframework.security.web.authentication.logout.LogoutFilter@7902a4d7, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@3f1485c3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@67f8586f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5035c23c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35abfeba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38cd7531, org.springframework.security.web.session.SessionManagementFilter@5baabba, org.springframework.security.web.access.ExceptionTranslationFilter@1a8042a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5811f080]
+2021-08-22 14:25:43.531 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@7eeabaf3, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f5ae4e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@412bb41f, org.springframework.security.web.header.HeaderWriterFilter@11893180, org.springframework.security.web.authentication.logout.LogoutFilter@7ba5d307, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2251cc2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@446dbf7b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cb09347, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fb006dc, org.springframework.security.web.session.SessionManagementFilter@74f1e112, org.springframework.security.web.access.ExceptionTranslationFilter@3b87c881, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7caa5387]
+2021-08-22 14:25:43.560 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6285027a, org.springframework.security.web.context.SecurityContextPersistenceFilter@71b01319, org.springframework.security.web.header.HeaderWriterFilter@37d12d0e, org.springframework.security.web.authentication.logout.LogoutFilter@55105271, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31a1b37b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57ab7b32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16fa28eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28fdce67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e834f3a, org.springframework.security.web.session.SessionManagementFilter@6f8c6694, org.springframework.security.web.access.ExceptionTranslationFilter@38ebf8dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f994055]
+2021-08-22 14:25:43.643 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2021-08-22 14:25:43.747 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2021-08-22 14:25:46.122 [container-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-08-22 14:25:46.126 [container-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-08-22 14:25:47.172 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2021-08-22 14:25:47.173 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2021-08-22 14:25:47.175 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2021-08-22 14:25:47.176 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-08-22 14:25:47.176 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-08-22 14:25:47.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8499"]
+2021-08-22 14:25:47.226 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8499 (http) with context path '/bonelf'
+2021-08-22 14:25:47.233 [main] INFO  com.bonelf.demo.DemoApplication - Started DemoApplication in 17.66 seconds (JVM running for 23.774)
+2021-08-22 14:25:47.581 [main] INFO  com.bonelf.demo.DemoApplication - 
+----------------------------------------------------------
+	Application is running! Access URLs:
+	Local: 		http://127.0.0.1:8499/bonelf
+	External: 	http://192.168.31.104:8499/bonelf
+	Websocket(stomp): 	http://192.168.31.104:8499/bonelf/wst
+----------------------------------------------------------
+2021-08-22 14:25:53.432 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2021-08-22 14:25:53.433 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2021-08-22 14:25:53.433 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2021-08-22 14:25:53.433 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-08-22 14:25:53.436 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2021-08-22 14:25:53.437 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2021-08-22 14:25:53.440 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-22 14:25:53.451 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2021-08-22 14:25:53.451 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-08-22 14:25:53.451 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-08-22 14:25:53.452 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-08-22 14:25:53.453 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2021-08-22 14:25:53.454 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2021-08-22 14:25:53.587 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing....
+2021-08-22 14:25:53.605 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-22 14:25:53.607 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

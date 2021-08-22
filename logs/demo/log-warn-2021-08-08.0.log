@@ -1,0 +1,2 @@
+2021-08-08 16:26:54.130 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonelf.demo]' package. Please check your configuration.
+2021-08-08 16:28:56.636 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonelf.demo]' package. Please check your configuration.
